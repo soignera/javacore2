@@ -399,36 +399,24 @@ public class TourAgencyDemo2 {
         H2DbInitor h2DbInitor = new H2DbInitor();
         h2DbInitor.init();
 
-        Application application = new Application();
-        application.fillStorage();
-
-        System.out.println("--------Users------------");
-        application.printUsers();
-
-        System.out.println("--------Marks------------");
-        application.printCountries();
-
-        application.searchCountriesWithOrderAsc();
-        application.searchCountriesWithOrderDesc();
-        application.searchCountriesWithoutOrder();
-        application.searchCountriesWithComplexOrderAsc();
-        application.searchCountriesWithComplexOrderDesc();
-
-        System.out.println("----Demo mark pagination -----");
-        application.searchCountriesWithPaginator();
-        application.demoReporting();
-   //     application.printCities();
-//        application.searchCities();
-//        application.searchCities2();
-//        application.searchCitiesWithoutOrder();
-//        application.searchCitiesWithOrderAsc();
-//        application.searchCitiesWithOrderDesc();
-//        application.searchCitiesWithComplexOrderAsc();
-  //      application.searchCitiesWithComplexOrderDesc();
-
-        //application.demoReporting();
-//        application.searchCountriesWithPaginator();
+//        Application application = new Application();
+//        application.fillStorage();
+//
+//        System.out.println("--------Users------------");
+//        application.printUsers();
+//
+//        System.out.println("--------Marks------------");
+//        application.printCountries();
+//
+//        application.searchCountriesWithOrderAsc();
+//        application.searchCountriesWithOrderDesc();
 //        application.searchCountriesWithoutOrder();
+//        application.searchCountriesWithComplexOrderAsc();
+//        application.searchCountriesWithComplexOrderDesc();
+//
+//        System.out.println("----Demo mark pagination -----");
+//        application.searchCountriesWithPaginator();
+//        application.demoReporting();
 //
 
     }
